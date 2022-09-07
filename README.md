@@ -118,16 +118,6 @@ If you know that you deleted the branches on the remote repository and you want 
 git fetch --prune
 ```
 
-ℹ️ If you want to just start with a blank slate, you the following command.
-
-```bash
-# It destroys every branch except your master branch
-git branch | grep -v "master" | xargs git branch -D
-```
-
-🚨 Only works in linux environment.
-🚨 Be aware if you have different name for your **master** branch like **main**.
-
 ### Commits
 
 Standard example when you want to create a new commit with message.
