@@ -4,6 +4,6 @@ plot('sum(1,2,3) =', sum(1, 2, 3));
 
 plot('double(10) =', double(10));
 
-plot("reverse('őlüytüfnáfzér') =", reverse('őlüytüfnfzéá'));
+plot("reverse('őlüytüfnáfzér') =", reverse('őlüyjtüfnfzéár'));
 
 plot('reverse([1,2,3,4,5]) =', reverse([1, 2, 3, 4, 5]));
